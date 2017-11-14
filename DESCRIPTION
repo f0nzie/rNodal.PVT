@@ -1,7 +1,7 @@
 Package: rNodal.PVT
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Alfonso R.", "Reyes", role = c("aut", "cre"), email = "alfonso.reyes@oilgainsanalytics.com")
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
@@ -9,4 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Suggests: testthat
+Suggests: testthat,
+    covr
