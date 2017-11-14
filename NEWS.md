@@ -1,5 +1,7 @@
 ## rNodal.PVT 0.0.1.9001
 * 20171114
+* add .travis.yml, .codecov.yml. add badges.
+* activate travis and codecov.io
 
 ## rNodal.PVT 0.0.1.9000
 * 20171114

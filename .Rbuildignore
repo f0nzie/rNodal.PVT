@@ -5,3 +5,4 @@
 ^NEWS\.md$
 ^docs$
 ^\.travis\.yml$
+^codecov\.yml$
