@@ -1,3 +1,6 @@
+## rNodal.PVT 0.0.1.9002
+* 20171114. Add 1st Pb equation. Standing
+
 ## rNodal.PVT 0.0.1.9001
 * 20171114
 * add .travis.yml, .codecov.yml. add badges.
