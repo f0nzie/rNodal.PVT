@@ -1,26 +1,15 @@
----
-output: github_document
----
-
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-"
-)
-```
-
-# rNodal.PVT
+rNodal.PVT
+==========
 
 The goal of rNodal.PVT is to ...
 
-## Example
+Example
+-------
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 ## basic example code
 ```
