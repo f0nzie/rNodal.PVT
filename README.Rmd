@@ -13,8 +13,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Travis-CI Build Status](https://travis-ci.org/f0nzie/rNodal.PVT.svg?branch=master)](https://travis-ci.org/f0nzie/rNodal.PVT)
-[![codecov](https://codecov.io/gh/f0nzie/rNodal.VLP/branch/master/graph/badge.svg)](https://codecov.io/gh/f0nzie/rNodal.VLP)
+[![Travis-CI Build Status](https://travis-ci.org/f0nzie/rNodal.PVT.svg?branch=develop)](https://travis-ci.org/f0nzie/rNodal.PVT)
+[![codecov](https://codecov.io/gh/f0nzie/rNodal.VLP/branch/develop/graph/badge.svg)](https://codecov.io/gh/f0nzie/rNodal.VLP)
 
 
 # rNodal.PVT
