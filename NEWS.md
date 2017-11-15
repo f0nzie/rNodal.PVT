@@ -1,3 +1,7 @@
+## rNodal.PVT 0.0.1.9003
+* 20171115. Bo USat Standing
+* 
+
 ## rNodal.PVT 0.0.1.9002
 * 20171114. Add 1st Pb equation. Standing
 * add equation for Bo saturated. add unit test for Bo.
