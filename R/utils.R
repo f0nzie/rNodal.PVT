@@ -1,6 +1,8 @@
 
 
-
+#' @title Coefficients for Bubble Point Pressure
+#' @description Get Coefficients for Bubble Point Pressure
+#' @param correlation Any of these three options: pb, bo, co
 #' @export
 get_pb_coefficients <- function(correlation) {
     # read coefficients table but select one type only = "pb"
@@ -10,6 +12,8 @@ get_pb_coefficients <- function(correlation) {
     one_corr[which(!is.na(one_corr))]  # return not NAs
 }
 
+#' @title Read Coefficients
+#' @description Read coefficients table
 #' @importFrom readr col_character col_double
 #' @export
 read_coefficients <- function() {
@@ -41,6 +45,9 @@ read_coefficients <- function() {
 }
 
 
+#' @title Show Correlations
+#' @description Show correlation by specifying the type of table.
+#' @param table_type any of these types: pb, bo, co
 #' @export
 show_correlations <- function(table_type) {
     # read table with coefficients
