@@ -12,7 +12,18 @@
 
 
 
-## Build unit test for equations
+
+## Parameters in Functions
+
+* Should temperature be entered as Fahrenheit or Rankine?
+* Should oil density be entered as API of specific gravity?
+* Should we use `dots` for the variables?
+* How should functions be named? For instance, if we have the oil density parameter as `oil.API`, how then a function that converts oil specific gravity to API would be named? 
+  * `convert_to_oil.api`
+  * `convert(from= "oil.sg", to = "oil.api")`. This approach requires extra work for validation, numeric range and units
+  * ​
+
+## Build unit tests for equations
 
 * Cite sources.
 * Use examples from literature. Take note of of page, chapter
