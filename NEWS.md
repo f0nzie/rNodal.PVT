@@ -1,3 +1,8 @@
+## rNodal.PVT 0.0.1.9004
+* 20171115. Add tables in gnumeric and csv to store coefficients
+* add functions to read coefficients table. add script utils.R
+* all correlations in a single table. Some NAs wil show but will be filtered.
+
 ## rNodal.PVT 0.0.1.9003
 * 20171115. Bo, Rs Standing
 * add function Rs.Standing. add unit test for example 4.8 Tarek Ahmed.
