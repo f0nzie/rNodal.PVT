@@ -4,14 +4,14 @@
 \alias{Bo.Standing}
 \title{Formation Volume Factor by Standing}
 \usage{
-Bo.Standing(oil.Rsi, gas.sg, oil.API, fluid.tempF)
+Bo.Standing(oil.Rsi, gas.sg, oil.api, fluid.tempF)
 }
 \arguments{
 \item{oil.Rsi}{solution oil gas ratio}
 
 \item{gas.sg}{gas specific gravity}
 
-\item{oil.API}{oil specific gravity in API degrees}
+\item{oil.api}{oil specific gravity in API degrees}
 
 \item{fluid.tempF}{fluid temperature in Farenheit}
 }
