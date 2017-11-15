@@ -1,6 +1,8 @@
 ## rNodal.PVT 0.0.1.9003
-* 20171115. Bo USat Standing
-* 
+* 20171115. Bo, Rs Standing
+* add function Rs.Standing. add unit test for example 4.8 Tarek Ahmed.
+* add project book to explain how the project is being built.
+* add CSV file with example from Tarek Ahmed's book. Will use for unit tests.
 
 ## rNodal.PVT 0.0.1.9002
 * 20171114. Add 1st Pb equation. Standing
