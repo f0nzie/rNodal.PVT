@@ -1,4 +1,4 @@
-"Correlation Name",prefix,a1,a2,a3,a4,a5,a6,a7,a8,b1,b2,b3
+description,id,a1,a2,a3,a4,a5,a6,a7,a8,b1,b2,b3
 Standing,sta,0.972,0.0001472,0.5,1.25,1.175,,,,,,
 "Vasquez and Beggs (<30 API)",vablo,0.0004677,1.751E-05,-1.8106E-08,,,,,,,,
 "Vasquez and Beggs (>30 API)",vabhi,0.000467,1.1E-05,1.337E-09,,,,,,,,

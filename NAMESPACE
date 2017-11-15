@@ -3,3 +3,8 @@
 export(Bo.Standing)
 export(Pob.Standing)
 export(Rs.Standing)
+export(get_pb_coefficients)
+export(read_coefficients)
+export(show_correlations)
+importFrom(readr,col_character)
+importFrom(readr,col_double)
