@@ -3,10 +3,11 @@
 
 #' @export
 get_pb_coefficients <- function(correlation) {
+    # read coefficients table but select one type only = "pb"
     coef_table <- read_coefficients()
     coef_table <- coef_table[coef_table$type == "pb", ]
     one_corr <- coef_table[coef_table$id == correlation,]
-    one_corr[which(!is.na(one_corr))]
+    one_corr[which(!is.na(one_corr))]  # return not NAs
 }
 
 #' @importFrom readr col_character col_double
@@ -39,22 +40,14 @@ read_coefficients <- function() {
     coef_tbl
 }
 
-#
-# read_coefficients <- function(table) {
-#     if (table == "pb") theFilename <- "pb-correlations_coefficients.csv"
-#     if (table == "co") theFilename <- "co-correlations_coefficients.csv"
-#     if (table == "bo") theFilename <- "bo-correlations_coefficients.csv"
-#     theFileLocation <- system.file("extdata", theFilename, package = "rNodal.PVT")
-#     coef_tbl <- readr::read_csv(file = theFileLocation, col_types = bo_col_types)
-#     coef_tbl
-# }
-
 
 #' @export
 show_correlations <- function(table_type) {
-
+    # read table with coefficients
     coef_table <- read_coefficients()
+    # if no argument provided then will print all otherwise selected: pb, co, bo
     if (!missing(table_type)) coef_table <- coef_table[coef_table$type == table_type, ]
+    # show only three columns for now
     coef_table[, c("id", "type", "description")]
 }
 
